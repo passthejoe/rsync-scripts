@@ -1,3 +1,7 @@
+# This is an extended rsync 'exclude' file for a Debian Wheezy desktop system.
+# files and directories listed here, unless preceded with a "#" character, will be ignored by rsync operations that call this exclude file.
+# The intent of this exclude file is not so much to save space on the backup filesystem as it is to reduce both time and complexity of the rsync operation; some of these "dot" directories contain substantial cached data that I'm not terribly interested in backing up 
+
 # /home/steven/.adobe
 # /home/steven/.aptitude
 /home/steven/.audacity-data
