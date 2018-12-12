@@ -13,4 +13,4 @@ Last but very certainly not least, running `rsync` without a script is just aski
 
 Despite my initial hopes, the WSL isn't meant for system-administration on the Windows side, so using the `rsync` from that Linux (which for me is Ubuntu) to back up Windows files is not an option.
 
-I might be able to use the `rsync` that comes with Cygwin to back up my Windows files. When using the Unix program `Unison` to mirror a Linux filesystem in Cygwin with a Linux filesystem on an external Linux server, I ran into permissions issues that I hope I won't run into using `rsync.` That would be the next step with my use of this script.
+I might be able to use the `rsync` that comes with [Cygwin](https://www.cygwin.com) to back up my Windows files. When using the Unix program [Unison](https://www.cis.upenn.edu/~bcpierce/unison) to mirror a Linux filesystem in Cygwin with a Linux filesystem on an external Linux server, I ran into permissions issues that I hope I won't run into using `rsync.` That would be the next step with my use of this script.
