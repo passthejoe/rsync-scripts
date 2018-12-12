@@ -9,8 +9,8 @@ When I was using Thunderbird/Icedove heavily as my mail reader, backing up those
 
 Last but very certainly not least, running `rsync` without a script is just asking for trouble. It's easy to sync in the "wrong" direction. Calling a script that I know works is the only way.
 
-**Update in 2018:** I still use this same script with Fedora 28, though these days I'm not using Linux exclusively. I have been using Windows 10 (with the Windows Subsystem for Linux) as my main desktop, and I miss `rsync`. There is a for-pay `rsync` client for Windows, but I'm not anxious to start with that.
+**Update in 2018:** I still use this same script with Fedora 28, though these days I'm not running Linux exclusively. I have been using Windows 10 (with the Windows Subsystem for Linux) as my main desktop, and I miss `rsync`. There is a for-pay `rsync` client for Windows, but I'm not anxious to start with that.
 
-The WSL isn't meant for system-administration on the Windows side of the system, so using the `rsync` from that Linux (which for me is Ubuntu) is not an option.
+Despite my initial hopes, the WSL isn't meant for system-administration on the Windows side, so using the `rsync` from that Linux (which for me is Ubuntu) to back up Windows files is not an option.
 
 I might be able to use the `rsync` that comes with Cygwin to back up my Windows files. When using the Unix program `Unison` to mirror a Linux filesystem in Cygwin with a Linux filesystem on an external Linux server, I ran into permissions issues that I hope I won't run into using `rsync.` That would be the next step with my use of this script.
