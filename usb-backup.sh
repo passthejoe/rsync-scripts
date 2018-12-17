@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 #
 # This simple script uses the Unix utility rsync to back up the /home directory to an external drive
 #
