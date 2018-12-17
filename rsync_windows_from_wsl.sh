@@ -10,4 +10,8 @@
 
 rsync -av --delete rsync_from/ rsync_to
 
+# here is the full path if you were running this rsync command from your WSL home directory - my user is named steve. Please modify to fit your user name and path
+
+rsync -av --delete /mnt/c/Users/steve/OneDrive/Documents/rsync_from/ /mnt/c/Users/steve/OneDrive/Documents/rsync_to
+
 exit 0
