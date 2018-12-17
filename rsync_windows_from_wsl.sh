@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 # This script uses the rsync from the Windows Subsystem for Linux in Windows 10 to backup files on the Windows side of the system
 
